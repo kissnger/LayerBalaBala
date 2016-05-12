@@ -1,0 +1,50 @@
+PODS:
+  - Alamofire (3.3.1)
+  - CocoaAsyncSocket (7.4.3):
+    - CocoaAsyncSocket/All (= 7.4.3)
+  - CocoaAsyncSocket/All (7.4.3):
+    - CocoaAsyncSocket/GCD
+    - CocoaAsyncSocket/RunLoop
+  - CocoaAsyncSocket/GCD (7.4.3)
+  - CocoaAsyncSocket/RunLoop (7.4.3)
+  - CryptoSwift (0.3.1)
+  - FBAllocationTracker (0.1.3)
+  - FBMemoryProfiler (0.1.2):
+    - FBAllocationTracker (~> 0.1)
+    - FBRetainCycleDetector (~> 0.1)
+  - FBRetainCycleDetector (0.1.2)
+  - FLEX (2.3.0)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - RxCocoa (2.4):
+    - RxSwift (~> 2.4)
+  - RxSwift (2.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - CocoaAsyncSocket
+  - CryptoSwift
+  - FBMemoryProfiler
+  - FLEX (~> 2.0)
+  - ReactiveCocoa (~> 2.5)
+  - RxCocoa (~> 2.0)
+  - RxSwift (~> 2.0)
+
+SPEC CHECKSUMS:
+  Alamofire: 369bc67b6f5ac33ded3648d7bd21c5bfb91c2ecc
+  CocoaAsyncSocket: a18c75dca4b08723628a0bacca6e94803d90be91
+  CryptoSwift: baf01e3fb3226c0155cd54c266be882b13d45d5e
+  FBAllocationTracker: bf649e786f2a7a7c7cffb99d59d3f81a0e9e294b
+  FBMemoryProfiler: bc0d488b31bb18ce5659c80f58c989c837bb7378
+  FBRetainCycleDetector: 45462f9ed1af0cd77224a4cc4e6dacaca47371b4
+  FLEX: ba80ea13d2c784e85e616137fd4eff164781e364
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  RxCocoa: 7d6cd877de99f5640306b3d6cf87f580c1d91b61
+  RxSwift: 67b9ef4e8b34fb394e200e754c6a09cc16559f94
+
+COCOAPODS: 0.39.0
